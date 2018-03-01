@@ -9,13 +9,18 @@
     
         <meta name="keywords" content="" />
     
-    <meta property="og:type" content="article">
+    <meta name="description" content="다시 기술 블로그를 시작해봅니다 :D   단계별로 hexo 설치 npm install -g hexo-cli hexo blog repo 만들기 hexo init &amp;lt;blog_repo_name&amp;gt; 테마 설치 블로그 루트폴더 내에서  git clone https://github.com/ppoffice/hexo-theme-hueman.git themes/">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo_Blog">
 <meta property="og:url" content="http://yoursite.com/2018/03/01/Hexo-Blog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:updated_time" content="2018-03-01T08:29:44.883Z">
+<meta property="og:description" content="다시 기술 블로그를 시작해봅니다 :D   단계별로 hexo 설치 npm install -g hexo-cli hexo blog repo 만들기 hexo init &amp;lt;blog_repo_name&amp;gt; 테마 설치 블로그 루트폴더 내에서  git clone https://github.com/ppoffice/hexo-theme-hueman.git themes/">
+<meta property="og:image" content="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/28575679_1634073530015086_8979743075005890560_o.jpg?oh=187ba521b487605c4283244a237ec6a3&amp;oe=5B08B920">
+<meta property="og:updated_time" content="2018-03-01T09:02:32.788Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo_Blog">
+<meta name="twitter:description" content="다시 기술 블로그를 시작해봅니다 :D   단계별로 hexo 설치 npm install -g hexo-cli hexo blog repo 만들기 hexo init &amp;lt;blog_repo_name&amp;gt; 테마 설치 블로그 루트폴더 내에서  git clone https://github.com/ppoffice/hexo-theme-hueman.git themes/">
+<meta name="twitter:image" content="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/28575679_1634073530015086_8979743075005890560_o.jpg?oh=187ba521b487605c4283244a237ec6a3&amp;oe=5B08B920">
     
 
     
@@ -62,13 +67,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">Inici</a>
+                                    <a class="main-nav-list-link" href="/">Accueil</a>
                                 </li>
                             
                                         
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">À propos</a>
                                 </li>
                             
                         </ul>
@@ -76,7 +81,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -95,10 +100,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Articles',
             PAGES: 'Pages',
-            CATEGORIES: 'categories',
-            TAGS: 'etiquetes',
+            CATEGORIES: 'Catégories',
+            TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -124,7 +129,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    Sense categoria
+    Aucune catégorie
     </h1>
 </div>
                         <div class="main-body-content">
@@ -155,14 +160,26 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            
+            <p><img src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/28575679_1634073530015086_8979743075005890560_o.jpg?oh=187ba521b487605c4283244a237ec6a3&amp;oe=5B08B920" alt="Hexo_Blog_시작하기"></p>
+<p>다시 기술 블로그를 시작해봅니다 :D </p>
+<ol>
+<li>단계별로 hexo 설치 <code>npm install -g hexo-cli</code></li>
+<li>hexo blog repo 만들기 <code>hexo init &lt;blog_repo_name&gt;</code></li>
+<li>테마 설치 블로그 루트폴더 내에서  <code>git clone https://github.com/ppoffice/hexo-theme-hueman.git themes/hueman</code> 실행합니다</li>
+<li>테마 설치후 테마 파일에 <code>_config.yml.example</code> 파일을 .example을 없애주어서 활성하시켜줍니다</li>
+<li>루트 폴더에 _config.yml파일로 가서 deploy할 세팅을 해줍니다 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  # repo: https://github.com/amorfati0310/amorfati0310.github.io.git</span><br><span class="line">  repo: https://github.com/amorfati0310/FDing.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo init &lt;blog_repo_name&gt;</span><br><span class="line">npm install or yarn </span><br><span class="line">hexo server // 서버로 로컬 파일들 잘 돌아가는지 확인 </span><br><span class="line">hexo new &lt;fileName&gt; 문서 생성 </span><br><span class="line">hexo generate 정적파일 변환 md-&gt; html,css,js 웹에 올라갈 파일로 변환해준다.</span><br><span class="line">hexo deploy 디플로이 합니다.</span><br><span class="line">hexo g -d (hexo generate+deploy)</span><br><span class="line"></span><br><span class="line">npm install --save hexo-deployer-git  git으로 deploy할 때 필요한 모듈 </span><br><span class="line">npm install --save hexo-generator-json-content theme hueman에 필요한 모듈 (검색)</span><br></pre></td></tr></table></figure>
+<p>…맙소사 amorfati0310/amorfati0310.io 이 repo가 아니고 다른 repo에서는 계속 테마가 적용이 안되고 링크도 이상하게 적용되는 상황이 발생했는데 이걸로 시간 얼마나 잡아먹었는지 ㅜㅜ<br>왜 다시 잘 되는지는 모르겠다…. 아마도 master로 올라가는데 적용되는 시간이 좀 있었지 않았나 싶다.;ㅁ;</p>
+
         </div>
         <footer class="article-footer">
             
 
 
 
-    <a data-url="http://yoursite.com/2018/03/01/Hexo-Blog/" data-id="cje89fdwn00006t5xz3c102w7" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/03/01/Hexo-Blog/" data-id="cje89fdwn00006t5xz3c102w7" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -242,7 +259,7 @@
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>seguir:</p>
+        <p>suivre:</p>
         <ul class="social-links">
             
                 
@@ -301,7 +318,7 @@
     
     
         <a href="/2018/03/01/Setting01/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">antic</strong>
+        <strong class="article-nav-caption">- récent</strong>
         <p class="article-nav-title">Setting01</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
@@ -314,7 +331,7 @@
             
                 
     <div class="widget-wrap">
-        <h3 class="widget-title">recents</h3>
+        <h3 class="widget-title">récents</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -324,7 +341,7 @@
                             <a href="/2018/03/01/Hexo-Blog/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/28575679_1634073530015086_8979743075005890560_o.jpg?oh=187ba521b487605c4283244a237ec6a3&amp;oe=5B08B920)" alt="Hexo_Blog" class="thumbnail-image"></span>
     
     
 </a>
@@ -368,7 +385,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">arxius</h3>
+        <h3 class="widget-title">archives</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a><span class="archive-list-count">2</span></li></ul>
         </div>
@@ -384,7 +401,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
+        <h3 class="widget-title">liens</h3>
         <div class="widget">
             <ul>
                 
